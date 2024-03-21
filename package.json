@@ -1,0 +1,57 @@
+{
+  "title": "UA-Parser.JS",
+  "name": "nesciuntlabore",
+  "version": "1.0.0",
+  "author": "SadyeTurner",
+  "description": "Lightweight JavaScript-based user-agent string parser",
+  "keywords": [
+    "user agent",
+    "quaerat",
+    "exercitationem",
+    "engine",
+    "os",
+    "aut"
+  ],
+  "homepage": "https://github.com/JaquelineGusikowski/nesciuntlabore.git",
+  "main": "ua-parser",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec",
+    "pretest": "./node_modules/uglify-js/bin/uglifyjs ua-parser.js > ua-parser.min.js"
+  },
+  "devDependencies": {
+    "mocha": ">= 1.7.1",
+    "uglify-js": ">= 1.3.4"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/faisalman/ua-parser-js.git"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaquelineGusikowski/nesciuntlabore.git"
+  },
+  "licenses": [
+    {
+      "type": "GPLv2",
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+    },
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "files": [
+    ""
+  ],
+  "bugs": {
+    "url": "https://github.com/JaquelineGusikowski/nesciuntlabore.git/issues"
+  }
+}
